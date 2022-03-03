@@ -11,8 +11,8 @@
         narrow-indicator
       >
         <q-tab name="h2l" icon="bolt" label="Get Lightning" />
-        <q-tab name="l2h" icon="bolt" label="Get Hive" />
-        <q-tab name="info" icon="info" label="Info" />
+        <q-tab name="l2h" disable icon="bolt" label="Get Hive Coming Soon" />
+        <q-tab name="info" disable icon="currency_bitcoin" label="Info" />
       </q-tabs>
 
       <q-separator />
@@ -53,7 +53,7 @@ export default {
   name: 'PageIndex',
   data () {
     return {
-      tab: 'l2h'
+      tab: 'h2l'
     }
   },
   props: ['prices'],
