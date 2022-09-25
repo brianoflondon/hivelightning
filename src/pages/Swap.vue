@@ -25,7 +25,7 @@
         <q-slide-transition>
           <div v-show="expanded">
             <q-separator />
-            <q-card-section class="q-mt-none q-pa-sm text-body2">
+            <q-card-section width="350px" class="q-mt-none q-pa-sm text-body2">
               <p>SimpleSwap is a 3rd party site which offers access to exchange 300+ cryptocurrencies,
             requires no signup and has a competitive rate.</p>
               <p>Before using the links or this widget read their <a href="https://simpleswap.io/faq?ref=9dc25a08a3d5">FAQ.</a>.</p>

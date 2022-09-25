@@ -324,7 +324,7 @@ export default {
         const data = {
           amount: parseInt(this.amountSats),
           memo: memo,
-          app_name: 'lnd.v4v.app'
+          app_name: 'v4v.app'
         }
         let url = ''
         url = this.serviceStatus.apiUrl + '/v1/new_invoice'
