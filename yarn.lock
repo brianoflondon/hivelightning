@@ -1260,7 +1260,7 @@
     core-js "^3.6.5"
     core-js-compat "^3.6.5"
 
-"@quasar/cli@^1.2.2":
+"@quasar/cli@^1.3.2":
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/@quasar/cli/-/cli-1.3.2.tgz#168fb936927da58dd6ea2323b3ea6b6db2561951"
   integrity sha512-/3mCwBgtCNuf+/yAWjemeO8H6BdWGAKNpndLXVt9/pIGwaxJiNedtpF3DngIfTqog13UMP/OBlerwOhXvsjw3g==

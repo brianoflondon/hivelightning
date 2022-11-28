@@ -13,6 +13,7 @@ COPY . .
 # COPY .editorconfig ./
 
 # build stage
+ENV NODE_OPTIONS="--openssl-legacy-provider"
 FROM develop-stage as build-stage
 RUN yarn
 RUN quasar build
