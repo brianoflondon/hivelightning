@@ -19,19 +19,20 @@
         </q-tabs>
       </q-toolbar>
       <div v-if="devSite" align="center" class="text-h6"><a href="https://v4v.app/hive">USE: v4v.app INSTEAD</a></div>
+      <div align="center" class="text-h6"><a href="https://peakd.com/me/proposals/244">Please help by voting for Proposal #244</a></div>
     </q-header>
     <q-footer v-if="prices" class="text-center">
       <b>Bitcoin:</b> ${{ tidyNumber(prices.bitcoin.usd.toFixed(2)) }}
       <b>Hive:</b> ${{ prices.hive.usd.toFixed(2) }}
       <b>Hive Dollars:</b> ${{ prices.hive_dollar.usd.toFixed(2) }}
       <q-btn flat dense @click="$q.dark.toggle()" :color="$q.dark.isActive ? 'black' : 'white'" :title="$q.dark.isActive ? 'Change to light mode':'Change to dark mode'" :icon="$q.dark.isActive ? 'dark_mode':'light_mode'" size="sm" />
-        <p>Larger swaps via <a href="/swap">SimpleSwap or Blocktrades</a>.</p>
+      <p>Larger swaps via <a href="/swap">SimpleSwap or Blocktrades</a>.</p>
     </q-footer>
     <q-page-container>
       <router-view
-        v-bind:prices="prices"
-        :serviceStatus="serviceStatus"
-        :sendHiveTo="sendHiveTo"
+      v-bind:prices="prices"
+      :serviceStatus="serviceStatus"
+      :sendHiveTo="sendHiveTo"
       />
     </q-page-container>
   </q-layout>
